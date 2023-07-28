@@ -8,4 +8,5 @@ const home = {
         res.json(select);
     }
 }
+
 module.exports = home

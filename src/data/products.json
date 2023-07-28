@@ -15,7 +15,7 @@
         "price": 69000,
         "discount": 5,
         "image": "img-celularA52.jpg",
-        "category":"visited"
+        "category":"Phone"
     },
     {
         "id": 3 ,
@@ -42,7 +42,7 @@
         "price": 670000,
         "discount": null,
         "image": "img-fender.jpg",
-        "category":"visited"
+        "category":"Guitar"
     },
     {
         "id": 6 ,
@@ -60,7 +60,7 @@
         "price": 354697,
         "discount": null,
         "image": "img-guitarrast.jpg",
-        "category":"visited"
+        "category":"Guitar"
     },
     {
         "id": 8 ,
@@ -78,6 +78,6 @@
         "price": 334000,
         "discount": null,
         "image": "img-S23.jpg",
-        "category":"visited"
+        "category":"Phone"
     }
 ]
