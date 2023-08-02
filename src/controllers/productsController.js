@@ -1,8 +1,9 @@
-const products = require('../data/products.json')
+const products = require('../data/products.json');
 
 
 
-const controller = {
+
+const productController = {
     crear: (req, res) => {
         res.json('crear un producto');
     },
@@ -19,4 +20,4 @@ const controller = {
     }
 }
 
-module.exports = controller;
+module.exports = productController;

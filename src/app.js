@@ -1,13 +1,15 @@
 let express = require('express');
 let app = express();
-let home = require('./routes/home')
-let product = require('./controllers/productsController')
+let home = require('./routes/homeRoute');
+let productRouter = require('./routes/productsRoute');
 
-app.use('/', home)
-app.use('/listar', product.listar)
-app.use('/crear', product.crear)
-app.use('/detalle', product.detalle)
-app.use('/producto/:id', product.id)
+
+app.use('/', home);
+app.use('/listar', productRouter);
+app.use('/crear', productRouter);
+app.use('/detalle', productRouter);
+app.use('/producto/:id', productRouter);
+
 
 
 
